@@ -13,26 +13,16 @@
                 Orchard temp = new Orchard(rand.Next(1, 10), rand.Next(1, 10), crops[rand.Next(0, 5)], rand.Next(1, 10), rand.Next(1, 10));
                 orchards[x] = temp;
 
-                if (yields.ContainsKey(temp.Plant))
-                {
-                    yields[temp.Plant] += temp.Harvest();
-                }
-                else
-                {
-                    yields.Add(temp.Plant, temp.Harvest());
-                }
+                yields[temp.Plant] = yields.ContainsKey(temp.Plant)
+                    ? yields[temp.Plant] += temp.Harvest()
+                    : temp.Harvest();
             }
             
             for (int x = 0; x < yields.Count; x++)
             {
-                if (yields.ContainsKey(crops[x]))
-                {
-                    Console.WriteLine($"{crops[x]}: {yields[crops[x]]}kg");
-                }
-                else
-                {
-                    Console.WriteLine($"{crops[x]}: 0kg");
-                }
+                string msg = "";
+                msg = yields.ContainsKey(crops[x]) ? $"{crops[x]}: {yields[crops[x]]}kg" : $"{crops[x]}: 0kg";
+                Console.WriteLine(msg);
             }
 
         }
