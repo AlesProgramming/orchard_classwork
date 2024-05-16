@@ -20,7 +20,7 @@ public class Orchard
     public int Harvest()
     {
         Random rand = new Random();
-        int yield = rand.Next(_yieldMin, _yieldMax);
+        int yield = rand.Next(_yieldMin, _yieldMax + 1);
         return yield * _length * _width;
     }
 
