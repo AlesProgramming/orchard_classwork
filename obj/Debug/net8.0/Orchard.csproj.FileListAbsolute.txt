@@ -1,0 +1,14 @@
+C:\Users\alesr\RiderProjects\Orchard\Orchard\bin\Debug\net8.0\Orchard.exe
+C:\Users\alesr\RiderProjects\Orchard\Orchard\bin\Debug\net8.0\Orchard.deps.json
+C:\Users\alesr\RiderProjects\Orchard\Orchard\bin\Debug\net8.0\Orchard.runtimeconfig.json
+C:\Users\alesr\RiderProjects\Orchard\Orchard\bin\Debug\net8.0\Orchard.dll
+C:\Users\alesr\RiderProjects\Orchard\Orchard\bin\Debug\net8.0\Orchard.pdb
+C:\Users\alesr\RiderProjects\Orchard\Orchard\obj\Debug\net8.0\Orchard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alesr\RiderProjects\Orchard\Orchard\obj\Debug\net8.0\Orchard.AssemblyInfoInputs.cache
+C:\Users\alesr\RiderProjects\Orchard\Orchard\obj\Debug\net8.0\Orchard.AssemblyInfo.cs
+C:\Users\alesr\RiderProjects\Orchard\Orchard\obj\Debug\net8.0\Orchard.csproj.CoreCompileInputs.cache
+C:\Users\alesr\RiderProjects\Orchard\Orchard\obj\Debug\net8.0\Orchard.dll
+C:\Users\alesr\RiderProjects\Orchard\Orchard\obj\Debug\net8.0\refint\Orchard.dll
+C:\Users\alesr\RiderProjects\Orchard\Orchard\obj\Debug\net8.0\Orchard.pdb
+C:\Users\alesr\RiderProjects\Orchard\Orchard\obj\Debug\net8.0\Orchard.genruntimeconfig.cache
+C:\Users\alesr\RiderProjects\Orchard\Orchard\obj\Debug\net8.0\ref\Orchard.dll
